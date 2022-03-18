@@ -21,6 +21,9 @@ Applying machine learning models that reduce bias and help predict credit risk.
 - An accuracy score for the model was calculated to be 63%.
 - A confusion matrix was generated
 - An imbalanced classification report has been generated
+![](Images/ros_accuracy.png)
+![](Images/randomOverSamplerCM.png)
+![](Images/ros_metrics.png)
 
 The high_risk precision is about 1% only with 56% sensitivity which makes a F1 of 2% only.
 Due to the large number of the low_risk population, its precision is almost 100% with a sensitivity of 69%.
@@ -29,6 +32,8 @@ Due to the large number of the low_risk population, its precision is almost 100%
 - An accuracy score for the model was calculated to be 66%.
 - A confusion matrix was generated
 - An imbalanced classification report has been generated
+![](Images/smote_accuracy.png)
+![](Images/smote_cm_and_metrics.png)
 
 The high_risk precision is about 1% only with 67% sensitivity which makes a F1 of 2% only.
 Due to the large number of the low_risk population, its precision is almost 100% with a sensitivity of 66%.
@@ -36,6 +41,7 @@ Due to the large number of the low_risk population, its precision is almost 100%
 - An accuracy score for the model was calculated to be 51%.
 - A confusion matrix was generated
 - An imbalanced classification report has been generated
+![](Images/clustercentroids_model.png)
 
 The high_risk precision is about 1% only with 57% sensitivity which makes a F1 of 1% only.
 Due to the large number of the low_risk population, its precision is almost 100% with a sensitivity of 45%.
@@ -43,6 +49,7 @@ Due to the large number of the low_risk population, its precision is almost 100%
 - An accuracy score for the model was calculated to be 63%.
 - A confusion matrix was generated
 - An imbalanced classification report has been generated
+![](Images/smoteenn.png)
 
 The high_risk precision is about 1% only with 71% sensitivity which makes a F1 of 2% only.
 Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 54%.
@@ -50,6 +57,9 @@ Due to the high number of the low_risk population, its precision is almost 100% 
 - An accuracy score for the model was calculated to be 79%.
 - A confusion matrix was generated
 - An imbalanced classification report has been generated
+![](Images/brfc.png)
+![](Images/brfc_metrics.png)
+![](Images/BalancedRandomForestClassifier_confusion_matrix.png)
 
 The high_risk precision is about 9% with 92% sensitivity which makes a F1 of 16% only.
 Due to the lower number of the low_risk population, its precision is almost 100% with a sensitivity of 94%.
@@ -57,6 +67,7 @@ Due to the lower number of the low_risk population, its precision is almost 100%
 - An accuracy score for the model was calculated to be 93%.
 - A confusion matrix was generated
 - An imbalanced classification report has been generated
+![](Images/eec.png)
 
 The high_risk precision is about 9% with 92% sensitivity which makes a F1 of 16% only.
 Due to the lower number of the low_risk population, its precision is almost 100% with a sensitivity of 94%.
